@@ -1,0 +1,447 @@
+/* ============================================================
+   TensorFlow Docs-inspired theme for MkDocs Material
+
+   Material uses:
+     --md-primary-fg-color  → header background color
+     --md-primary-bg-color  → header text/icon color
+   So for a white header we set fg=white, bg=dark text.
+   Links/accents are controlled separately.
+   ============================================================ */
+
+/* --- Light mode ------------------------------------------- */
+[data-md-color-scheme="default"] {
+  /* Header: white bg, dark text */
+  --md-primary-fg-color:           #FFFFFF;
+  --md-primary-fg-color--light:    #F8F9FA;
+  --md-primary-fg-color--dark:     #EEEEEE;
+  --md-primary-bg-color:           #202124;
+  --md-primary-bg-color--light:    #5F6368;
+
+  /* Accent + links: Google Blue */
+  --md-accent-fg-color:            #1967D2;
+  --md-accent-fg-color--transparent: rgba(25, 103, 210, 0.1);
+  --md-accent-bg-color:            #FFFFFF;
+  --md-typeset-a-color:            #1967D2;
+
+  /* Page background + text */
+  --md-default-bg-color:           #FFFFFF;
+  --md-default-fg-color:           #202124;
+  --md-default-fg-color--light:    #5F6368;
+  --md-default-fg-color--lighter:  #80868B;
+  --md-default-fg-color--lightest: #DADCE0;
+
+  /* Code blocks */
+  --md-code-bg-color:              #F5F5F5;
+  --md-code-fg-color:              #202124;
+  --md-code-hl-color:              rgba(25, 103, 210, 0.1);
+
+  /* Footer */
+  --md-footer-bg-color:            #F8F9FA;
+  --md-footer-bg-color--dark:      #EEEEEE;
+  --md-footer-fg-color:            #202124;
+  --md-footer-fg-color--light:     #5F6368;
+  --md-footer-fg-color--lighter:   #80868B;
+}
+
+/* Header: white bg + bottom divider */
+[data-md-color-scheme="default"] .md-header {
+  box-shadow: none;
+  border-bottom: 1px solid #DADCE0;
+}
+
+/* Nav tabs: white bg, blue active */
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DADCE0;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #5F6368;
+  opacity: 1;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link--active,
+[data-md-color-scheme="default"] .md-tabs__link:hover {
+  color: #1967D2;
+}
+
+/* Sidebar: light gray */
+[data-md-color-scheme="default"] .md-sidebar {
+  background-color: #F8F9FA;
+}
+
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #3C4043;
+}
+
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #1967D2;
+}
+
+/* TOC + sidebar active item: blue left border */
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: #1967D2;
+  font-weight: 600;
+  border-left: 3px solid #1967D2;
+  padding-left: 0.5rem;
+  margin-left: -3px;
+}
+
+/* Search bar */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: #F1F3F4;
+  border-radius: 24px;
+}
+
+/* Footer */
+[data-md-color-scheme="default"] .md-footer {
+  background-color: #F8F9FA;
+  border-top: 1px solid #DADCE0;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: #EEEEEE;
+}
+
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #669DF6;
+  font-weight: 600;
+  border-left: 3px solid #4285F4;
+  padding-left: 0.5rem;
+  margin-left: -3px;
+}
+
+/* --- Dark mode (slate) ------------------------------------ */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #1E1E2E;
+  --md-primary-fg-color--light: #2A2A3E;
+  --md-primary-bg-color:        #CDD6F4;
+  --md-accent-fg-color:         #4285F4;
+  --md-accent-fg-color--transparent: rgba(66, 133, 244, 0.1);
+  --md-typeset-a-color:         #669DF6;
+  --md-code-hl-color:           rgba(66, 133, 244, 0.15);
+}
+
+/* ============================================================
+   Roadmap grid
+   ============================================================ */
+.roadmap-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.roadmap-node {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem 0.5rem;
+  flex: 1 1 170px;
+  max-width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.roadmap-node:hover {
+  border-color: var(--node-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap-node .name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+  line-height: 1.3;
+}
+
+.roadmap-node .links {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.roadmap-node .links a {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+}
+
+.roadmap-node .links a:hover {
+  opacity: 0.75;
+}
+
+.roadmap-node .links a.article {
+  background: color-mix(in srgb, var(--node-color) 15%, transparent);
+  color: var(--node-color);
+}
+
+.roadmap-node .links a.video {
+  background: color-mix(in srgb, #e53935 15%, transparent);
+  color: #e53935;
+}
+
+[data-md-color-scheme="slate"] .roadmap-node .links a.video {
+  color: #ff6b6b;
+}
+
+/* ============================================================
+   Google Cloud Docs-style full-width layout
+   ============================================================ */
+
+/* Remove the max-width cap — let content fill the viewport */
+.md-grid {
+  max-width: 100%;
+}
+
+/* Left sidebar: flush left, wider for readability */
+.md-sidebar--primary {
+  width: 15rem;
+}
+
+/* Right TOC sidebar: flush right */
+.md-sidebar--secondary {
+  width: 13rem;
+}
+
+/* Content area: readable width, centered in remaining space */
+.md-content__inner {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0.6rem 1.5rem 1.2rem;
+}
+
+/* Header spans full width */
+.md-header .md-header__inner {
+  max-width: 100%;
+}
+
+/* Tabs bar spans full width */
+.md-tabs {
+  max-width: 100%;
+}
+
+/* ============================================================
+   Jupyter notebook cell overrides — Google Docs style
+   ============================================================ */
+
+/* Hide In[]: prompts and collapser gutters */
+.jp-InputPrompt,
+.jp-OutputPrompt,
+.jp-Collapser {
+  display: none !important;
+}
+
+/* Reset wrappers to zero margin */
+.jp-Cell-inputWrapper,
+.jp-InputArea {
+  margin: 0;
+}
+
+/* Code cell input box — flat Google style */
+.jp-CodeCell .jp-Cell-inputWrapper {
+  background: var(--md-code-bg-color);
+  border-radius: 4px;
+  margin: 0.75rem 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.jp-CodeMirrorEditor {
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* The highlight wrapper that contains the <pre> */
+.highlight-ipynb {
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* The actual code <pre> — matches Google code blocks */
+.jp-CodeMirrorEditor pre {
+  padding: 12px 16px;
+  margin: 0;
+  background: var(--md-code-bg-color);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  line-height: 20px;
+  white-space: pre;
+}
+
+/* Output cells */
+.jp-OutputArea-output {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.jp-OutputArea-output pre {
+  padding: 12px 16px;
+  margin: 0.75rem 0;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  line-height: 20px;
+  white-space: pre;
+}
+
+/* Matplotlib / image outputs — display and constrain width */
+.jp-OutputArea-output img,
+.jp-OutputArea-output svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem auto;
+}
+
+/* Ensure output wrappers are visible */
+.jp-OutputArea,
+.jp-OutputArea-child,
+.jp-OutputArea-output {
+  overflow: visible;
+}
+
+/* Rich output (HTML tables, DataFrames, plots) */
+.jp-RenderedHTMLCommon table {
+  margin: 0.5rem 0;
+}
+
+.jp-RenderedImage {
+  text-align: center;
+}
+
+/* Markdown cells in notebooks */
+.jp-RenderedHTMLCommon {
+  font-family: Roboto, sans-serif;
+  padding: 0 !important;
+}
+
+/* Cell spacing */
+.jp-Cell {
+  margin-bottom: 0;
+}
+
+.jp-Notebook {
+  padding: 0;
+}
+
+/* ============================================================
+   Syntax highlighting — Google Docs palette
+   ============================================================ */
+
+/* Base text color */
+.highlight-ipynb { color: #37474F; }
+
+/* Keywords: import, from, def, return, if, for, class, etc. */
+.highlight-ipynb .k,
+.highlight-ipynb .kn,
+.highlight-ipynb .kd,
+.highlight-ipynb .kc,
+.highlight-ipynb .kr,
+.highlight-ipynb .ow { color: #0D47A1; font-weight: 600; }
+
+/* Built-in names: print, len, range, dict, list, type, etc. */
+.highlight-ipynb .nb,
+.highlight-ipynb .bp { color: #0D47A1; }
+
+/* Function/class definitions */
+.highlight-ipynb .nf,
+.highlight-ipynb .nc { color: #6A1B9A; }
+
+/* Strings */
+.highlight-ipynb .s,
+.highlight-ipynb .s1,
+.highlight-ipynb .s2,
+.highlight-ipynb .sa,
+.highlight-ipynb .sb,
+.highlight-ipynb .sd,
+.highlight-ipynb .se,
+.highlight-ipynb .sh,
+.highlight-ipynb .si,
+.highlight-ipynb .sx { color: #1B5E20; }
+
+/* Numbers */
+.highlight-ipynb .mi,
+.highlight-ipynb .mf,
+.highlight-ipynb .mh,
+.highlight-ipynb .mo,
+.highlight-ipynb .mb,
+.highlight-ipynb .il { color: #B71C1C; }
+
+/* Comments */
+.highlight-ipynb .c,
+.highlight-ipynb .c1,
+.highlight-ipynb .ch,
+.highlight-ipynb .cm,
+.highlight-ipynb .cs,
+.highlight-ipynb .cp,
+.highlight-ipynb .cpf { color: #9E9E9E; font-style: italic; }
+
+/* Operators: +, -, *, =, == */
+.highlight-ipynb .o { color: #37474F; }
+
+/* Decorators */
+.highlight-ipynb .nd { color: #6A1B9A; }
+
+/* Module/package names (import numpy) */
+.highlight-ipynb .nn { color: #006064; }
+
+/* Variables, plain names */
+.highlight-ipynb .n { color: #37474F; }
+
+/* Punctuation */
+.highlight-ipynb .p { color: #37474F; }
+
+/* Whitespace */
+.highlight-ipynb .w { color: transparent; }
+
+/* --- Dark mode syntax overrides --- */
+[data-md-color-scheme="slate"] .highlight-ipynb { color: #CDD6F4; }
+[data-md-color-scheme="slate"] .highlight-ipynb .k,
+[data-md-color-scheme="slate"] .highlight-ipynb .kn,
+[data-md-color-scheme="slate"] .highlight-ipynb .kd,
+[data-md-color-scheme="slate"] .highlight-ipynb .kc,
+[data-md-color-scheme="slate"] .highlight-ipynb .kr,
+[data-md-color-scheme="slate"] .highlight-ipynb .ow { color: #89B4FA; }
+[data-md-color-scheme="slate"] .highlight-ipynb .nb,
+[data-md-color-scheme="slate"] .highlight-ipynb .bp { color: #89B4FA; }
+[data-md-color-scheme="slate"] .highlight-ipynb .nf,
+[data-md-color-scheme="slate"] .highlight-ipynb .nc { color: #CBA6F7; }
+[data-md-color-scheme="slate"] .highlight-ipynb .s,
+[data-md-color-scheme="slate"] .highlight-ipynb .s1,
+[data-md-color-scheme="slate"] .highlight-ipynb .s2,
+[data-md-color-scheme="slate"] .highlight-ipynb .sa,
+[data-md-color-scheme="slate"] .highlight-ipynb .sb,
+[data-md-color-scheme="slate"] .highlight-ipynb .sd,
+[data-md-color-scheme="slate"] .highlight-ipynb .se,
+[data-md-color-scheme="slate"] .highlight-ipynb .sh,
+[data-md-color-scheme="slate"] .highlight-ipynb .si,
+[data-md-color-scheme="slate"] .highlight-ipynb .sx { color: #A6E3A1; }
+[data-md-color-scheme="slate"] .highlight-ipynb .mi,
+[data-md-color-scheme="slate"] .highlight-ipynb .mf,
+[data-md-color-scheme="slate"] .highlight-ipynb .mh,
+[data-md-color-scheme="slate"] .highlight-ipynb .mo,
+[data-md-color-scheme="slate"] .highlight-ipynb .mb,
+[data-md-color-scheme="slate"] .highlight-ipynb .il { color: #F38BA8; }
+[data-md-color-scheme="slate"] .highlight-ipynb .c,
+[data-md-color-scheme="slate"] .highlight-ipynb .c1,
+[data-md-color-scheme="slate"] .highlight-ipynb .ch,
+[data-md-color-scheme="slate"] .highlight-ipynb .cm,
+[data-md-color-scheme="slate"] .highlight-ipynb .cs,
+[data-md-color-scheme="slate"] .highlight-ipynb .cp,
+[data-md-color-scheme="slate"] .highlight-ipynb .cpf { color: #6C7086; }
+[data-md-color-scheme="slate"] .highlight-ipynb .o { color: #CDD6F4; }
+[data-md-color-scheme="slate"] .highlight-ipynb .nd { color: #CBA6F7; }
+[data-md-color-scheme="slate"] .highlight-ipynb .nn { color: #94E2D5; }
+[data-md-color-scheme="slate"] .highlight-ipynb .n { color: #CDD6F4; }
+[data-md-color-scheme="slate"] .highlight-ipynb .p { color: #CDD6F4; }
