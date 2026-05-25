@@ -75,7 +75,8 @@ nav:
     - Calculus: prework/calculus/Calculus.ipynb
     - Probability: prework/statistics/Probability.ipynb
     - Statistics: prework/statistics/Statistics.ipynb
-    - NumPy: prework/NumPy.md
+    - NumPy: prework/Numpy/NumPy.md
+    - Image Processing: prework/Numpy/NumPy_Image_Processing.ipynb
     - Pandas DataFrame: prework/Pandas-DataFrame.md
     - Framing an ML Problem: prework/Framing-an-ML-problem.md
     - Introduction to ML Problem Framing: prework/Introduction-to-Machine-Learning-Problem-Framing.md
