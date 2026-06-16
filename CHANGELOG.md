@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.9.0 — 2026-06-16
+
+### Feat
+
+- feat(prework): add image processing pre-work doc by **Ayush Joshi** in [#7116848](https://github.com/joshiayush/nuro/commit/71168487f6831969b677dc9fc6f2e7be97c0ae2a)
+- feat: add updates to `numpy`, `pytorch` prework docs and backpropagation by **Ayush Joshi** in [#6e29bb9](https://github.com/joshiayush/nuro/commit/6e29bb90b5e504ea21d2c3e91bf6d7fc228b2b8d)
+
+### Docs
+
+- docs: release `nuro@v0.8.2` by **Ayush Joshi** in [#be99b2c](https://github.com/joshiayush/nuro/commit/be99b2ced538b5a009d28fff1d1e566add292d55)
+
+
 ## nuro@v0.8.2 — 2026-04-02
 
 ### Refactor
