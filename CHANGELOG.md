@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.10.0 — 2026-06-19
+
+### Feat
+
+- feat: add axis explanation and operations in `NumPy` prework by **Ayush Joshi** in [#cd59668](https://github.com/joshiayush/nuro/commit/cd596686c2ee87820ea6109efa88aa48053f654e)
+
+### Docs
+
+- docs: release `nuro@v0.9.0` by **Ayush Joshi** in [#154f4b7](https://github.com/joshiayush/nuro/commit/154f4b7c8631e047b03c54f6539ccc7f8977460c)
+
+
 ## nuro@v0.9.0 — 2026-06-16
 
 ### Feat
