@@ -113,7 +113,7 @@ def cov(  # pylint: disable=too-many-positional-arguments
   if x.shape[0] == 0:
     return np.array([]).reshape(0, 0)
   if y is not None:
-    y = np.array(y, copy=False, ndmin=2, dtype=dtype)
+    y = np.asarray(y)
     if not rowvar and y.shape[0] != 1:
       y = y.T
     x = np.concatenate((x, y), axis=0)
