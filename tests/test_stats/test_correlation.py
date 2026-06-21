@@ -15,7 +15,7 @@
 
 import numpy as np
 
-from ai.stats import correlation
+from nuro.stats import correlation
 
 
 def test_cov_1d_array():

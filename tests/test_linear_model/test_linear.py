@@ -19,7 +19,7 @@ from numpy.testing import (
   assert_array_almost_equal,
 )
 
-from ai.linear_model import LinearRegression
+from nuro.linear_model import LinearRegression
 
 
 def test_linear_regression():

@@ -18,7 +18,7 @@
 import pytest
 import numpy as np
 
-from ai.linear_model import LogisticRegression
+from nuro.linear_model import LogisticRegression
 
 
 def test_predict_simple():
