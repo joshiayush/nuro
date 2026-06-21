@@ -26,6 +26,7 @@ dev = [
     "mkdocs-material>=9.7.5",
     "mkdocstrings[python]>=1.0.3",
     "pylance>=3.0.0",
+    "pytest>=9.1.1",
     "yapf>=0.43.0",
 ]
 
