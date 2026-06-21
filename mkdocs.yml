@@ -34,6 +34,11 @@ theme:
 
 plugins:
   - search
+  - ask-ai:
+      sections:
+        "Documentation":
+          - "*.md"
+          - "*.ipynb"
   - mkdocs-jupyter:
       include_source: true
       execute: false
@@ -53,22 +58,25 @@ nav:
     - Neural Networks: dl/Neural_Networks.ipynb
     - Backpropagation: dl/Backpropagation.ipynb
   - Machine Learning:
-    - Introduction to ML: ml/Introduction-to-ML.md
-    - Descending into ML: ml/Descending-into-ML.md
-    - Gradient Descent: ml/Gradient_Descent.ipynb
-    - Generalization: ml/Generalization.md
-    - Training and Test Sets: ml/Training-and-Test-Sets.md
-    - Validation Set: ml/Validation-Set.md
-    - Representation: ml/Representation.md
-    - Feature Crosses: ml/Feature-Crosses.md
-    - Transform Your Data: ml/Transform-Your-Data.md
-    - Regularization for Simplicity: ml/Regularization-for-Simplicity.md
-    - Logistic Regression: ml/Logistic-Regression.md
-    - Classification: ml/Classification.md
-    - Regularization for Sparsity: ml/Regularization-for-Sparsity.md
-    - Neural Networks: ml/Neural-Networks.md
-    - Training Neural Networks: ml/Training-Neural-Networks.md
-    - Linear Regression with a Real Dataset: ml/Linear-Regression-with-a-Real-Dataset.md
+    - Prework:
+        - Problem Framing: ml/prework/Problem_Framing.ipynb
+    - Core:
+        - Introduction to ML: ml/core/Introduction_to_ML.ipynb
+        - Descending into ML: ml/Descending-into-ML.md
+        - Gradient Descent: ml/core/Gradient_Descent.ipynb
+        - Generalization: ml/Generalization.md
+        - Training and Test Sets: ml/Training-and-Test-Sets.md
+        - Validation Set: ml/Validation-Set.md
+        - Representation: ml/Representation.md
+        - Feature Crosses: ml/Feature-Crosses.md
+        - Transform Your Data: ml/Transform-Your-Data.md
+        - Regularization for Simplicity: ml/Regularization-for-Simplicity.md
+        - Logistic Regression: ml/Logistic-Regression.md
+        - Classification: ml/Classification.md
+        - Regularization for Sparsity: ml/Regularization-for-Sparsity.md
+        - Neural Networks: ml/Neural-Networks.md
+        - Training Neural Networks: ml/Training-Neural-Networks.md
+        - Linear Regression with a Real Dataset: ml/Linear-Regression-with-a-Real-Dataset.md
   - Prework:
     - Mathematics:
         - Linear Algebra: prework/linear-algebra/Linear_Algebra.ipynb
@@ -82,8 +90,6 @@ nav:
         - Tensors: prework/PyTorch/PyTorch.ipynb
     - Pandas:
         - DataFrame: prework/Pandas_DataFrame.ipynb
-    - Machine Learning:
-        - Problem Framing: prework/Problem_Framing.ipynb
   - Algorithms:
     - Overview: algos/README.md
     - Pearson Correlation: algos/correlation/pearson_correlation/Pearson-correlation-coefficient.md

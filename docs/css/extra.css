@@ -43,6 +43,12 @@
   --md-footer-fg-color--lighter:   #80868B;
 }
 
+/* Light Mode Highlight (Your exact color) */
+[data-md-color-scheme="default"] {
+  --text-highlight-color-global: #c4f5c5;
+  --text-color-global: #000000; /* Dark text for high contrast */
+}
+
 /* Header: white bg + bottom divider */
 [data-md-color-scheme="default"] .md-header {
   box-shadow: none;
@@ -121,6 +127,12 @@
   --md-accent-fg-color--transparent: rgba(66, 133, 244, 0.1);
   --md-typeset-a-color:         #669DF6;
   --md-code-hl-color:           rgba(66, 133, 244, 0.15);
+}
+
+/* Dark Mode Highlight (Darkened green for readability) */
+[data-md-color-scheme="slate"] {
+  --text-highlight-color-global: #1b4d22;
+  --text-color-global: #ffffff; /* Light text for high contrast */
 }
 
 /* ============================================================
@@ -445,3 +457,11 @@
 [data-md-color-scheme="slate"] .highlight-ipynb .nn { color: #94E2D5; }
 [data-md-color-scheme="slate"] .highlight-ipynb .n { color: #CDD6F4; }
 [data-md-color-scheme="slate"] .highlight-ipynb .p { color: #CDD6F4; }
+
+/* Reusable utility class */
+.global-text-highlight {
+  background-color: var(--text-highlight-color-global);
+  color: var(--text-color-global);
+  padding: 2px 6px;
+  border-radius: 4px;
+}

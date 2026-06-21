@@ -1114,6 +1114,18 @@ wheels = [
 ]
 
 [[package]]
+name = "mkdocs-ask-ai"
+version = "1.1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mkdocs" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/39/e6/73c1df105e2d1433041819c602283838d699268bbd85012023ccc96e7fdd/mkdocs_ask_ai-1.1.3.tar.gz", hash = "sha256:939a66a90730f51361e1a6bbb61d090a2da113b07cf0b80fbe1de5b8558978ad", size = 22761, upload-time = "2026-03-14T17:21:58.583Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/ed/edf84b818ac067007a5975b6a6a41dd1e7313b84c6f290e73f02d842ec40/mkdocs_ask_ai-1.1.3-py3-none-any.whl", hash = "sha256:fca86faa7f6ae579b2ee9381487078f52cf297902e9c48380b8d722f25600039", size = 19699, upload-time = "2026-03-14T17:21:57.038Z" },
+]
+
+[[package]]
 name = "mkdocs-autorefs"
 version = "1.4.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1356,6 +1368,7 @@ dependencies = [
     { name = "imageio" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
+    { name = "mkdocs-ask-ai" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pooch" },
@@ -1381,6 +1394,7 @@ requires-dist = [
     { name = "imageio", specifier = ">=2.37.3" },
     { name = "jupyterlab", specifier = ">=4.5.6" },
     { name = "matplotlib", specifier = ">=3.10.8" },
+    { name = "mkdocs-ask-ai", specifier = ">=1.1.3" },
     { name = "numpy", specifier = ">=2.4.3" },
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "pooch", specifier = ">=1.9.0" },
