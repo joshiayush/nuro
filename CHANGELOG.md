@@ -1,5 +1,21 @@
 # Changelog
 
+## nuro@v0.11.0 — 2026-06-21
+
+### Feat
+
+- feat(mkdocs): add text highlight global css and ask ai plugin by **Ayush Joshi** in [#2ad3748](https://github.com/joshiayush/nuro/commit/2ad374819425c8fb9a3a2f4cfad2144943446893)
+- feat(ml): add documentation on Linear Regression its equation and loss functions by **Ayush Joshi** in [#b9a1e6b](https://github.com/joshiayush/nuro/commit/b9a1e6be706dd662f20e507b3e180ffda7a01466)
+
+### Refactor
+
+- refactor: refactor prework navigation by **Ayush Joshi** in [#49c74ef](https://github.com/joshiayush/nuro/commit/49c74ef0cefcda8e37c592ba19e6b7822636f3ca)
+
+### Docs
+
+- docs: release `nuro@v0.10.0` by **Ayush Joshi** in [#1f166e4](https://github.com/joshiayush/nuro/commit/1f166e4bdfd8a78c054261e2e5366db26ff64295)
+
+
 ## nuro@v0.10.0 — 2026-06-19
 
 ### Feat
