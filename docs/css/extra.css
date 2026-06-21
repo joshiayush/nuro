@@ -45,7 +45,7 @@
 
 /* Light Mode Highlight (Your exact color) */
 [data-md-color-scheme="default"] {
-  --text-highlight-color-global: #c4f5c5;
+  --text-highlight-color-global: #e3fce3;
   --text-color-global: #000000; /* Dark text for high contrast */
 }
 
@@ -464,4 +464,10 @@
   color: var(--text-color-global);
   padding: 2px 6px;
   border-radius: 4px;
+}
+
+.global-text-highlight .mjx-chtml {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-block; /* Keeps inline math flow stable */
 }

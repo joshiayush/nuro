@@ -54,15 +54,24 @@ plugins:
 
 nav:
   - Home: index.md
-  - Deep Learning:
-    - Neural Networks: dl/Neural_Networks.ipynb
-    - Backpropagation: dl/Backpropagation.ipynb
+  - Prework:
+    - Mathematics:
+        - Linear Algebra: prework/linear-algebra/Linear_Algebra.ipynb
+        - Calculus: prework/calculus/Calculus.ipynb
+        - Probability: prework/statistics/Probability.ipynb
+        - Statistics: prework/statistics/Statistics.ipynb
+    - NumPy:
+        - NumPy Arrays: prework/Numpy/NumPy.ipynb
+        - Image Processing: prework/Numpy/NumPy_Image_Processing.ipynb
+    - PyTorch:
+        - Tensors: prework/PyTorch/PyTorch.ipynb
+    - Pandas:
+        - DataFrame: prework/Pandas_DataFrame.ipynb
   - Machine Learning:
     - Prework:
         - Problem Framing: ml/prework/Problem_Framing.ipynb
     - Core:
         - Introduction to ML: ml/core/Introduction_to_ML.ipynb
-        - Descending into ML: ml/Descending-into-ML.md
         - Gradient Descent: ml/core/Gradient_Descent.ipynb
         - Generalization: ml/Generalization.md
         - Training and Test Sets: ml/Training-and-Test-Sets.md
@@ -77,26 +86,18 @@ nav:
         - Neural Networks: ml/Neural-Networks.md
         - Training Neural Networks: ml/Training-Neural-Networks.md
         - Linear Regression with a Real Dataset: ml/Linear-Regression-with-a-Real-Dataset.md
-  - Prework:
-    - Mathematics:
-        - Linear Algebra: prework/linear-algebra/Linear_Algebra.ipynb
-        - Calculus: prework/calculus/Calculus.ipynb
-        - Probability: prework/statistics/Probability.ipynb
-        - Statistics: prework/statistics/Statistics.ipynb
-    - NumPy:
-        - NumPy Arrays: prework/Numpy/NumPy.ipynb
-        - Image Processing: prework/Numpy/NumPy_Image_Processing.ipynb
-    - PyTorch:
-        - Tensors: prework/PyTorch/PyTorch.ipynb
-    - Pandas:
-        - DataFrame: prework/Pandas_DataFrame.ipynb
-  - Algorithms:
-    - Overview: algos/README.md
-    - Pearson Correlation: algos/correlation/pearson_correlation/Pearson-correlation-coefficient.md
+    - Models:
+        - Linear Regression: ml/models/Linear_Regression.ipynb
+  - Deep Learning:
+    - Neural Networks: dl/Neural_Networks.ipynb
+    - Backpropagation: dl/Backpropagation.ipynb
   - Projects:
     - Digits Classifier: projects/digits-classifier/digits_classification.ipynb
     - Salary Predictor: projects/salary-predictor/ds_salaries_analysis.ipynb
     - Face Recognition: projects/face-recognition/face_recognition.ipynb
+  - Algorithms:
+    - Overview: algos/README.md
+    - Pearson Correlation: algos/correlation/pearson_correlation/Pearson-correlation-coefficient.md
   - API Reference:
     - boolalg: api/boolalg.md
     - linear_model: api/linear_model.md
