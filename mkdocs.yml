@@ -74,8 +74,7 @@ nav:
         - Introduction to ML: ml/core/Introduction_to_ML.ipynb
         - Gradient Descent: ml/core/Gradient_Descent.ipynb
         - Generalization: ml/core/Generalization.ipynb
-        - Training and Test Sets: ml/Training-and-Test-Sets.md
-        - Validation Set: ml/Validation-Set.md
+        - Training, Validation and Test Sets: ml/core/Training_Validation_and_Test_sets.ipynb
         - Representation: ml/Representation.md
         - Feature Crosses: ml/Feature-Crosses.md
         - Transform Your Data: ml/Transform-Your-Data.md
