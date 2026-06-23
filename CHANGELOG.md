@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.14.0 — 2026-06-23
+
+### Feat
+
+- feat: add documentation on "Training, Validation and Test Sets" by **Ayush Joshi** in [#c43535c](https://github.com/joshiayush/nuro/commit/c43535c73f6731b924c0aa5020687a2bffb2b623)
+
+### Docs
+
+- docs: release `nuro@v0.13.0` by **Ayush Joshi** in [#7469802](https://github.com/joshiayush/nuro/commit/7469802a6541883c10628bd295b7b26b6711b2a0)
+
+
 ## nuro@v0.13.0 — 2026-06-23
 
 ### Feat
