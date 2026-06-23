@@ -1,5 +1,25 @@
 # Changelog
 
+## nuro@v0.12.0 — 2026-06-23
+
+### Feat
+
+- feat(ml): add documentation on Linear Regression its equation, loss functions and how to choose hyperparameters by **Ayush Joshi** in [#bdd3bfd](https://github.com/joshiayush/nuro/commit/bdd3bfdcc3751a428ba10d588f0935a6e4b65afe)
+
+### Refactor
+
+- refactor: update root module name from `ai` to `nuro` by **Ayush Joshi** in [#d95fa0b](https://github.com/joshiayush/nuro/commit/d95fa0b010bfe22f356ca923e545c81c43702a58)
+
+### Fix
+
+- fix: use `np.asarray()` a replacement for `np.array(o, copy=False)` in `numpy>=2.x.y` by **Ayush Joshi** in [#0644f22](https://github.com/joshiayush/nuro/commit/0644f229fa3e7c61938ad4ad2e66f40288851b86)
+- fix: use media queries to make docs responsive by **Ayush Joshi** in [#c383714](https://github.com/joshiayush/nuro/commit/c383714906df149b7589ddcb930c778f1a13eedb)
+
+### Docs
+
+- docs: release `nuro@v0.11.0` by **Ayush Joshi** in [#bdd25ed](https://github.com/joshiayush/nuro/commit/bdd25eded32069a3dc4d62dbd60e0a4e2c0e6fa5)
+
+
 ## nuro@v0.11.0 — 2026-06-21
 
 ### Feat
