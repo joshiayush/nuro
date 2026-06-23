@@ -73,7 +73,7 @@ nav:
     - Core:
         - Introduction to ML: ml/core/Introduction_to_ML.ipynb
         - Gradient Descent: ml/core/Gradient_Descent.ipynb
-        - Generalization: ml/Generalization.md
+        - Generalization: ml/core/Generalization.ipynb
         - Training and Test Sets: ml/Training-and-Test-Sets.md
         - Validation Set: ml/Validation-Set.md
         - Representation: ml/Representation.md
