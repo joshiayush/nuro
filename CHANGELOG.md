@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.13.0 — 2026-06-23
+
+### Feat
+
+- feat: add document on "Generalization" and "Overfitting" by **Ayush Joshi** in [#57e88a3](https://github.com/joshiayush/nuro/commit/57e88a3b3e1caadf5333ea24c5b88d8af86bb598)
+
+### Docs
+
+- docs: release `nuro@v0.12.0` by **Ayush Joshi** in [#2c1322b](https://github.com/joshiayush/nuro/commit/2c1322b69cdc6b97769cd49c54edff919fb7e331)
+
+
 ## nuro@v0.12.0 — 2026-06-23
 
 ### Feat
