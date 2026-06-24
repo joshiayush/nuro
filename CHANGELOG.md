@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.15.0 — 2026-06-24
+
+### Feat
+
+- feat: add documentation on "Representation" and "Feature Engineering" by **Ayush Joshi** in [#adf25ec](https://github.com/joshiayush/nuro/commit/adf25ec82217b535e55fd6c576dd60c690ca65e7)
+
+### Docs
+
+- docs: release `nuro@v0.14.0` by **Ayush Joshi** in [#839fe8c](https://github.com/joshiayush/nuro/commit/839fe8c413fcbc8d22d881af41cf998a72fbaf44)
+
+
 ## nuro@v0.14.0 — 2026-06-23
 
 ### Feat
