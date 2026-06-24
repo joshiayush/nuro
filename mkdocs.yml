@@ -75,7 +75,7 @@ nav:
         - Gradient Descent: ml/core/Gradient_Descent.ipynb
         - Generalization: ml/core/Generalization.ipynb
         - Training, Validation and Test Sets: ml/core/Training_Validation_and_Test_sets.ipynb
-        - Representation: ml/Representation.md
+        - Representation: ml/core/Representation.ipynb
         - Feature Crosses: ml/Feature-Crosses.md
         - Transform Your Data: ml/Transform-Your-Data.md
         - Regularization for Simplicity: ml/Regularization-for-Simplicity.md
