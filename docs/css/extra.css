@@ -207,7 +207,22 @@
    Google Cloud Docs-style full-width layout
    ============================================================ */
 
-/* Apply structural overrides ONLY on desktop screens (min-width: 1220px) */
+/* Mobile & Tablet structural baseline (tight padding, full width) */
+.md-content__inner {
+  padding: 0.6rem 0.75rem 1.2rem; /* Reduced horizontal padding for mobile */
+}
+
+/* Header spans full width */
+.md-header .md-header__inner {
+  max-width: 100%;
+}
+
+/* Tabs bar spans full width */
+.md-tabs {
+  max-width: 100%;
+}
+
+/* Apply structural layout expansions ONLY on desktop screens */
 @media screen and (min-width: 76.25em) {
   /* Remove the max-width cap — let content fill the viewport */
   .md-grid {
@@ -228,39 +243,35 @@
   .md-content__inner {
     max-width: 50rem;
     margin: 0 auto;
+    padding: 0.6rem 1.5rem 1.2rem; /* Extra breathing room on desktop */
   }
-}
-
-/* Ensure content padding applies cleanly across all devices */
-.md-content__inner {
-  padding: 0.6rem 1.5rem 1.2rem;
-}
-
-/* Header spans full width */
-.md-header .md-header__inner {
-  max-width: 100%;
-}
-
-/* Tabs bar spans full width */
-.md-tabs {
-  max-width: 100%;
 }
 
 /* ============================================================
    Jupyter notebook cell overrides — Google Docs style
    ============================================================ */
 
-/* Hide In[]: prompts and collapser gutters */
+/* Hide In[]/Out[] prompts and collapser gutters completely */
 .jp-InputPrompt,
 .jp-OutputPrompt,
-.jp-Collapser {
+.jp-Collapser,
+.jp-Cell-gutter {
   display: none !important;
+  width: 0 !important;
+  min-width: 0 !important;
 }
 
-/* Reset wrappers to zero margin */
+/* Completely strip out layout structural paddings/margins that held the prompt space */
+.jp-Cell,
 .jp-Cell-inputWrapper,
-.jp-InputArea {
-  margin: 0;
+.jp-InputArea,
+.jp-OutputArea-child,
+.jp-OutputArea-output {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
 }
 
 /* Code cell input box — flat Google style */
@@ -296,12 +307,7 @@
   white-space: pre;
 }
 
-/* Output cells */
-.jp-OutputArea-output {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
+/* Output cells styling */
 .jp-OutputArea-output pre {
   padding: 12px 16px;
   margin: 0.75rem 0;
