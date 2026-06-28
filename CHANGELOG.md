@@ -1,5 +1,24 @@
 # Changelog
 
+## nuro@v0.16.0 — 2026-06-28
+
+### Feat
+
+- feat: add documentation on "Transform Your Data" by **Ayush Joshi** in [#9e2c171](https://github.com/joshiayush/nuro/commit/9e2c171dc9fe15b786c437f19bf61ffe7709274d)
+
+### Refactor
+
+- refactor: delete un-necessary documentation files by **Ayush Joshi** in [#588da6c](https://github.com/joshiayush/nuro/commit/588da6c2cae13dc2206ed80e50b44f266557f6d5)
+
+### Fix
+
+- fix: remove fixed padding on mobile devices by **Ayush Joshi** in [#f743db2](https://github.com/joshiayush/nuro/commit/f743db2bfe3ef35b3bd8263a25c2ccc1cb462e79)
+
+### Docs
+
+- docs: release `nuro@v0.15.0` by **Ayush Joshi** in [#7d4af91](https://github.com/joshiayush/nuro/commit/7d4af91b13e371f14c54f5d1ebc93bb2c82850b1)
+
+
 ## nuro@v0.15.0 — 2026-06-24
 
 ### Feat
