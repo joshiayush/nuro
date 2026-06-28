@@ -1,6 +1,4 @@
-# svm
+# Support Vector Machines API Reference
 
-::: nuro.svm
-    options:
-      members: true
-      show_submodules: true
+::: nuro.svm.classes
+::: nuro.svm.kernels

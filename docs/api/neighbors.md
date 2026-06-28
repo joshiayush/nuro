@@ -1,6 +1,3 @@
-# neighbors
+# Neighbors API Reference
 
-::: nuro.neighbors
-    options:
-      members: true
-      show_submodules: true
+::: nuro.neighbors.knn

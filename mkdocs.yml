@@ -76,15 +76,8 @@ nav:
         - Generalization: ml/core/Generalization.ipynb
         - Training, Validation and Test Sets: ml/core/Training_Validation_and_Test_sets.ipynb
         - Representation: ml/core/Representation.ipynb
-        - Feature Crosses: ml/Feature-Crosses.md
-        - Transform Your Data: ml/Transform-Your-Data.md
-        - Regularization for Simplicity: ml/Regularization-for-Simplicity.md
-        - Logistic Regression: ml/Logistic-Regression.md
-        - Classification: ml/Classification.md
-        - Regularization for Sparsity: ml/Regularization-for-Sparsity.md
-        - Neural Networks: ml/Neural-Networks.md
-        - Training Neural Networks: ml/Training-Neural-Networks.md
-        - Linear Regression with a Real Dataset: ml/Linear-Regression-with-a-Real-Dataset.md
+        - Feature Crosses: ml/core/Feature_Crosses.ipynb
+        - Transform Your Data: ml/core/Transform_your_Data.ipynb
     - Models:
         - Linear Regression: ml/models/Linear_Regression.ipynb
   - Deep Learning:
@@ -94,17 +87,14 @@ nav:
     - Digits Classifier: projects/digits-classifier/digits_classification.ipynb
     - Salary Predictor: projects/salary-predictor/ds_salaries_analysis.ipynb
     - Face Recognition: projects/face-recognition/face_recognition.ipynb
-  - Algorithms:
-    - Overview: algos/README.md
-    - Pearson Correlation: algos/correlation/pearson_correlation/Pearson-correlation-coefficient.md
   - API Reference:
-    - boolalg: api/boolalg.md
     - linear_model: api/linear_model.md
     - naive_bayes: api/naive_bayes.md
+    - svm: api/svm.md
+    - stats: api/stats.md
     - neighbors: api/neighbors.md
     - search: api/search.md
-    - stats: api/stats.md
-    - svm: api/svm.md
+    - boolalg: api/boolalg.md
 
 markdown_extensions:
   - pymdownx.arithmatex:

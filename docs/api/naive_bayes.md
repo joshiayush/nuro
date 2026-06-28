@@ -1,6 +1,3 @@
-# naive_bayes
+# Naive Bayes API Reference
 
-::: nuro.naive_bayes
-    options:
-      members: true
-      show_submodules: true
+::: nuro.naive_bayes.naive_bayes

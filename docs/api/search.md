@@ -1,6 +1,3 @@
-# search
+# Search API Reference
 
-::: nuro.search
-    options:
-      members: true
-      show_submodules: true
+::: nuro.search.frontiers

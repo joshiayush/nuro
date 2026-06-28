@@ -1,6 +1,5 @@
-# linear_model
+# Linear Model API Reference
 
-::: nuro.linear_model
-    options:
-      members: true
-      show_submodules: true
+::: nuro.linear_model.linear
+::: nuro.linear_model.logistic
+::: nuro.linear_model.perceptron

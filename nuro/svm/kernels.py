@@ -63,19 +63,6 @@ def grbf(x: np.ndarray, x_prime: np.ndarray, sigma: np.float32) -> np.ndarray:
 
   Returns:
     RBF value.
-
-  Examples:
-
-  >>> # Example data points
-  >>> x1 = np.array([1, 2, 3])
-  >>> x2 = np.array([4, 5, 6])
-  ...
-  >>> # Set the width parameter
-  >>> sigma = 1.0
-  ...
-  >>> # Calculate the RBF value
-  >>> rbf_result = grbf(x1, x2, sigma)
-  >>> print("Gaussian RBF Value:", rbf_result)
   """
   sqr_dist = np.sum(np.power((x - x_prime), 2))
   grbf_val = np.exp(-sqr_dist / (2 * sigma**2))

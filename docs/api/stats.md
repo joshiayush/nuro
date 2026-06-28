@@ -1,6 +1,4 @@
-# stats
+# Stats API Reference
 
-::: nuro.stats
-    options:
-      members: true
-      show_submodules: true
+::: nuro.stats.stats
+::: nuro.stats.correlation

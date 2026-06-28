@@ -1,6 +1,3 @@
-# boolalg
+# Boolean Algebra API Reference
 
-::: nuro.boolalg
-    options:
-      members: true
-      show_submodules: true
+::: nuro.boolalg.logic
