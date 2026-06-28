@@ -1,0 +1,3 @@
+# Kaggle
+
+Kaggle is a [data science competition platform](https://en.wikipedia.org/wiki/Data_science_competition_platform) and online community of data scientists and machine learning practitioners under [Google LLC](https://en.wikipedia.org/wiki/Google_LLC). Kaggle enables users to find and publish datasets, explore and build models in a web-based data science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
