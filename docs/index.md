@@ -1,15 +1,11 @@
-# joshiayush.ai
+# Nuro
 
-A lightweight implementation of machine learning and deep learning algorithms built from the ground up using NumPy and PyTorch.
+A lightweight, math-first machine learning and deep learning library built completely from scratch using NumPy and PyTorch. 
 
-The goal is to learn by implementing — each algorithm is crafted manually, diving into the mathematics that underpins it rather than relying on existing abstractions.
+The core philosophy of this project is **learning by implementing**. Every algorithm, transformation, and mathematical operation is hand-crafted from basic primitives to bridge the gap between high-level framework abstractions and underlying foundational theory.
 
-## Get Started
-
-- [Deep Learning Roadmap](deep-learning-roadmap.md) — curated resources for every concept
-- [Machine Learning](ml/README.md) — core ML fundamentals
-- [API Reference](api/linear_model.md) — Python package docs
+This project includes **educational documentation** on core concepts of Machine Learning and Deep Learning along with hands-on projects for practice purpose.
 
 ## Contributing
 
-Follow the [Google documentation style guide](https://www.tensorflow.org/community/contribute/docs_style).
+We welcome contributions that improve mathematical clarity, code optimization, or documentation coverage. Please ensure all code additions strictly adhere to the **[Google Documentation Style Guide](https://www.tensorflow.org/community/contribute/docs_style)** and pass standard linting requirements.
