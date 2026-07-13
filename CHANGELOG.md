@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.17.0 — 2026-07-13
+
+### Feat
+
+- feat: add documentation on `PyTorch` tensors and operations and gradients by **Ayush Joshi** in [#11f1fc8](https://github.com/joshiayush/nuro/commit/11f1fc8ad02fb53a28f67fda402d2d5c458fa33b)
+
+### Docs
+
+- docs: release `nuro@v0.16.0` by **Ayush Joshi** in [#e155823](https://github.com/joshiayush/nuro/commit/e1558233eeba2198c2fc9fc94affacd51b1bba7a)
+- docs: remove all the dead document files that are already replaced by `.ipynb` notebooks by **Ayush Joshi** in [#d0767fe](https://github.com/joshiayush/nuro/commit/d0767fe128424f94afc4da99ac60ac265b07393e)
+
+
 ## nuro@v0.16.0 — 2026-06-28
 
 ### Feat
