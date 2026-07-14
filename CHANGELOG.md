@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.18.0 — 2026-07-14
+
+### Feat
+
+- feat: update `Functions` section of `PyTorch` documentation with `full`, `cat`, `reshape`, `sin` and `from_numpy` functions by **Ayush Joshi** in [#c46048a](https://github.com/joshiayush/nuro/commit/c46048acdc4276ef9af4f6cfcdb25b58c4f5a8ca)
+
+### Docs
+
+- docs: release `nuro@v0.17.0` by **Ayush Joshi** in [#361ea34](https://github.com/joshiayush/nuro/commit/361ea344c749fddb6a30ec473f05832aa5136e58)
+
+
 ## nuro@v0.17.0 — 2026-07-13
 
 ### Feat
