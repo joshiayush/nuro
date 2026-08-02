@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.19.0 — 2026-08-02
+
+### Feat
+
+- feat: add documentation on linear regression with PyTorch by **Ayush Joshi** in [#9ccd56d](https://github.com/joshiayush/nuro/commit/9ccd56d17aeeb0246f7152b51f6bf7fa4927f594)
+- feat: add jupyterlab language server support by **Ayush Joshi** in [#e078ece](https://github.com/joshiayush/nuro/commit/e078ece31baafe246ea3f139262b87d3a55b52d6)
+
+### Docs
+
+- docs: release `nuro@v0.18.0` by **Ayush Joshi** in [#011dea5](https://github.com/joshiayush/nuro/commit/011dea5a9007d465dfd54a2c6b8785c578365a02)
+
+
 ## nuro@v0.18.0 — 2026-07-14
 
 ### Feat
