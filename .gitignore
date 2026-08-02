@@ -10,6 +10,7 @@ pyvenv.cfg
 share/
 ai_dev/
 .venv/
+.virtual_documents/
 
 # visual studio code
 .vscode
