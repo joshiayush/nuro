@@ -65,6 +65,7 @@ nav:
         - Image Processing: prework/Numpy/NumPy_Image_Processing.ipynb
     - PyTorch:
         - Tensors: prework/PyTorch/PyTorch.ipynb
+        - Linear Regression: prework/PyTorch/Linear_Regression.ipynb
     - Pandas:
         - DataFrame: prework/Pandas_DataFrame.ipynb
   - Machine Learning:
