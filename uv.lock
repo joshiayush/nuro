@@ -1440,7 +1440,7 @@ wheels = [
 
 [[package]]
 name = "nuro"
-version = "0.19.0"
+version = "0.20.0"
 source = { virtual = "." }
 dependencies = [
     { name = "imageio" },

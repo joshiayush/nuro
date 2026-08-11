@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.20.0 — 2026-08-11
+
+### Feat
+
+- feat: add log scaling for right skewed data by **Ayush Joshi** in [#4f69ac7](https://github.com/joshiayush/nuro/commit/4f69ac7615aabffcc8fe2898b54fd83443b6241d)
+
+### Docs
+
+- docs: release `nuro@v0.19.0` by **Ayush Joshi** in [#622bc83](https://github.com/joshiayush/nuro/commit/622bc83d6c58e8cd7537b3a06da16502c671431f)
+
+
 ## nuro@v0.19.0 — 2026-08-02
 
 ### Feat
