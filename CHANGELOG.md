@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.21.1 — 2026-08-26
+
+### Fix
+
+- fix: use freeform to fix the numpy axis demonstration images theme by **Ayush Joshi** in [#8a7e2cf](https://github.com/joshiayush/nuro/commit/8a7e2cfa74ccf93591ea5c152f339e9736d56961)
+
+### Docs
+
+- docs: release `nuro@v0.21.0` by **Ayush Joshi** in [#382fd18](https://github.com/joshiayush/nuro/commit/382fd1824bdb6630e31709f00fd0b0693ce1c198)
+- docs: update readme by **Ayush Joshi** in [#e6e8133](https://github.com/joshiayush/nuro/commit/e6e8133fa4e957d9c0646be6e8833dd2237b2ff4)
+
+
 ## nuro@v0.21.0 — 2026-08-26
 
 ### Feat
