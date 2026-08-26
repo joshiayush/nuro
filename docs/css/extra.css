@@ -484,3 +484,10 @@
   margin: 0 !important;
   display: inline-block; /* Keeps inline math flow stable */
 }
+
+/* Markdown code fences (``` ```) — smaller font */
+.highlight pre,
+.highlight pre code {
+  font-size: 12px !important;
+  line-height: 1.5;
+}
