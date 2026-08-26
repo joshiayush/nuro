@@ -1,5 +1,16 @@
 # Changelog
 
+## nuro@v0.21.0 — 2026-08-26
+
+### Feat
+
+- feat: expand broadcasting in NumPy prework + shrink code-fence font by **Ayush Joshi** in [#c17decd](https://github.com/joshiayush/nuro/commit/c17decd58e923038270fc60889f573e31706b707)
+
+### Docs
+
+- docs: release `nuro@v0.20.0` by **Ayush Joshi** in [#55404bc](https://github.com/joshiayush/nuro/commit/55404bc6d00e6db9746958935f50b7c8e136f87c)
+
+
 ## nuro@v0.20.0 — 2026-08-11
 
 ### Feat
