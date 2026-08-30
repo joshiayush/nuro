@@ -81,6 +81,7 @@ nav:
         - Transform Your Data: ml/core/Transform_your_Data.ipynb
     - Models:
         - Linear Regression: ml/models/Linear_Regression.ipynb
+        - Linear Models from Scratch: ml/models/Linear_Models_from_Scratch.ipynb
   - Deep Learning:
     - Neural Networks: dl/Neural_Networks.ipynb
     - Backpropagation: dl/Backpropagation.ipynb
