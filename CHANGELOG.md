@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.22.0 — 2026-09-01
+
+### Feat
+
+- feat(ml): add from scratch implementation of single-layer neural network by **Ayush Joshi** in [#3fb8984](https://github.com/joshiayush/nuro/commit/3fb89840a118690bd4b2ecde3d8c9ae5293d5a17)
+
+### Docs
+
+- docs(ml): add Linear Models from Scratch companion to Linear Regression by **Ayush Joshi** in [#c6870c0](https://github.com/joshiayush/nuro/commit/c6870c0228cbd72c101549077d082f497ef0e285)
+- docs: release `nuro@v0.21.1` by **Ayush Joshi** in [#3f2b068](https://github.com/joshiayush/nuro/commit/3f2b0683ae3e1002ff437267e5bca93a9b463f13)
+
+
 ## nuro@v0.21.1 — 2026-08-26
 
 ### Fix
