@@ -21,6 +21,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "beautifulsoup4>=4.13.0",
     "isort>=8.0.1",
     "jupyterlab-code-formatter>=3.0.3",
     "mkdocs>=1.6.1",
@@ -29,6 +30,7 @@ dev = [
     "mkdocstrings[python]>=1.0.3",
     "pylance>=3.0.0",
     "pytest>=9.1.1",
+    "requests>=2.32.0",
     "yapf>=0.43.0",
 ]
 
