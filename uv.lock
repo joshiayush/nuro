@@ -1459,6 +1459,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "beautifulsoup4" },
     { name = "isort" },
     { name = "jupyterlab-code-formatter" },
     { name = "mkdocs" },
@@ -1467,6 +1468,7 @@ dev = [
     { name = "mkdocstrings", extra = ["python"] },
     { name = "pylance" },
     { name = "pytest" },
+    { name = "requests" },
     { name = "yapf" },
 ]
 
@@ -1488,6 +1490,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "beautifulsoup4", specifier = ">=4.13.0" },
     { name = "isort", specifier = ">=8.0.1" },
     { name = "jupyterlab-code-formatter", specifier = ">=3.0.3" },
     { name = "mkdocs", specifier = ">=1.6.1" },
@@ -1496,6 +1499,7 @@ dev = [
     { name = "mkdocstrings", extras = ["python"], specifier = ">=1.0.3" },
     { name = "pylance", specifier = ">=3.0.0" },
     { name = "pytest", specifier = ">=9.1.1" },
+    { name = "requests", specifier = ">=2.32.0" },
     { name = "yapf", specifier = ">=0.43.0" },
 ]
 
