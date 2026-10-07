@@ -1,5 +1,17 @@
 # Changelog
 
+## nuro@v0.23.0 — 2026-10-07
+
+### Feat
+
+- feat(tools): add notebook inject and fetch-image commands by **Ayush Joshi** in [#f845721](https://github.com/joshiayush/nuro/commit/f845721845c935fc2d7583a1e0cc85fd5e925908)
+- feat: add "Gradient Accumulation" explanation over simple neural network by **Ayush Joshi** in [#7ef78a1](https://github.com/joshiayush/nuro/commit/7ef78a1e95e1a97cc49f22d502fab3d0354948d5)
+
+### Docs
+
+- docs: release `nuro@v0.22.0` by **Ayush Joshi** in [#da3edc3](https://github.com/joshiayush/nuro/commit/da3edc32870989646871972a07d007e9251d7b59)
+
+
 ## nuro@v0.22.0 — 2026-09-01
 
 ### Feat
